@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SMA Negeri 9 Cirebon</title>
+  <style>
+  	
+  	body {
+  		margin: 0;
+  		font-family: Times New Roman, serif;
+  	}
+  	header {
+  		background: lightgreen;
+  		color: white;
+  		padding: 15px;
+  		text-align: center;
+  	}
+  	nav {
+  		background: darkseagreen;
+  		padding: 10px;
+  		text-align: center;
+  	}
+  	nav a {
+  		color: white;
+  		text-decoration: none;
+  		margin: 0 10px;
+  	}
+  	nav a:hover {
+  		color: yellow;
+  	}
+  	
+  /* Hero Section */
+  .tentang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+  
+  .gambar {
+  	flex: 1;
+  }
+  .gambar img {
+  	width: 100%;
+  	height: auto;
+  	display: block;
+  }
+  .teks {
+  	flex: 1;
+  	padding: 30px;
+  }
+  .hero button:hover {
+  	background: orange;
+  	color: white;
+  }
+  
+  .teks h2 {
+    margin-top: 0;
+    font-size: 28px;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2)
+  }
+  
+  .teks p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Konten */
+  main {
+    flex: 1; /* biar ngisi ruang kosong */
+    padding: 20px;
+    text-align: center;
+  }
+  footer {
+  	background: #lightgreen;
+  	color: white;
+  	text-align: center;
+  	padding: 10px;
+  	margin-top: 20px;
+  }
+  /* responsive HP */
+  @media (max-width: 768px) {
+    .tentang {
+      flex-direction: column;
+    }
+    .gambar img {
+      border-bottom: 1px solid #eee;
+    }
+  }
+  </style>
+  <link rel="styclass=lesheet" href="style.css">
+</head>
+<body>
+	
+	<header>
+		<h1>SMA Negeri 9 Cirebon</h1>
+		<p>Selamat Datang di Website Sekolah Kami</p>
+	</header>
+	
+	<nav>
+		<a href="index.html">Home</a>
+		 <a href="tentang.html" style="color:yellow">Profil</a>
+		 <a href="visi-misi.html">Visi-Misi</a>
+		 <a href="ekstrakurikuler.html">Ekstrakurikuler</a>
+		 <a href="kontak.html">Kontak</a>
+	</nav>
+	<main>
+		<section class="tentang">
+			<div class="gambar">
+			  <img src="NEGLAN.jpg" alt="Foto Sekolah">
+			</div>
+			<div class="teks">
+			  <h2>Tentang Sekolah Kami</h2>
+			  <p>
+			    Sekolah kami berdiri sejak tahun 1999 dengan tujuan mencetak generasi yang berprestasi, berkarakter, dan siap menghadapi masa depan. Fasilitas lengkap, guru berpengalaman, serta lingkungan belajar yang nyaman menjadi keunggulan sekolah ini.
+			  </p>
+			</div>
+		</section>
+	</main>
+	
+	<footer>
+		&copy; 2025 SMA Negeri 9 Cirebon
+	</footer>
+	
+  <script src="main.js"></script>
+</body>
